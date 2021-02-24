@@ -1,0 +1,49 @@
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: teal;
+}
+
+div {
+  display: inline-block;
+  border: 1px black solid;
+  padding: 1rem 1rem 3rem 1rem;
+  background-color: white;
+}
+
+img {
+  width: 30rem;
+  height: 20rem;
+  border: 1px silver solid;
+}
+
+.img1 {
+  position: relative;
+  top: 2vh;
+  left: 44vw;
+  transform: rotate(-25deg);
+  opacity: 0.8;
+}
+
+.img2 {
+  position: relative;
+  top: 18vh;
+  left: 16vw;
+  transform: rotate(10deg);
+  opacity: 0.4;
+}
+
+.img4 {
+  position: relative;
+  bottom: 8vh;
+  left: 30vw;
+  transform: rotate(15deg);
+  opacity: 0.4;
+}
+
+.img3 {
+  position: relative;
+  top: 44vh;
+  right: 40vw;
+  transform: rotate(8deg);
+  opacity: 0.8;
+}
