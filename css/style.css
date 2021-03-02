@@ -1,0 +1,87 @@
+/* All elements style */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* H1 style */
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 3rem;
+  color: teal;
+  text-align: center;
+  padding-top: 2rem;
+  margin-bottom: 5rem;
+}
+/* Images style by class */
+.img {
+  border: 1px solid gray;
+  background-color: white;
+  padding: 0.5rem;
+  padding-bottom: 1.5rem;
+  position: relative;
+  width: 30%;
+  height: 40%;
+  z-index: auto;
+  opacity: 0.7;
+  filter: grayscale(90%);
+  transition: 3s;
+}
+/* First image style by id*/
+#img1 {
+  position: relative;
+  top: 6vh;
+  left: 30vw;
+  transform: rotate(-20deg);
+}
+/* Seccond image style by id*/
+#img2 {
+  bottom: 20vh;
+  left: 30vw;
+  transform: rotate(10deg);
+}
+/* Third image style by id */
+#img3 {
+  bottom: 30vh;
+  left: 30vw;
+  transform: rotate(20deg);
+}
+/* fourth image style by id */
+#img4 {
+  bottom: 40vh;
+  left: 50%;
+  transform: rotate(10deg);
+}
+/* Advanced style */
+/* Image one :hover */
+#img1:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+  cursor: pointer;
+  opacity: 1;
+  z-index: 1;
+}
+/* Image two :hover */
+#img2:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+  cursor: pointer;
+  opacity: 1;
+  z-index: 1;
+}
+/* Image three :hover */
+#img3:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+  cursor: pointer;
+  opacity: 1;
+  z-index: 1;
+}
+/* Image four :hover */
+#img4:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+  cursor: pointer;
+  opacity: 1;
+  z-index: 1;
+}
