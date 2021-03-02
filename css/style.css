@@ -19,7 +19,7 @@ h1 {
   background-color: white;
   padding: 0.5rem;
   padding-bottom: 1.5rem;
-  position: relative;
+  position: absolute;
   width: 30%;
   height: 40%;
   z-index: auto;
@@ -29,27 +29,26 @@ h1 {
 }
 /* First image style by id*/
 #img1 {
-  position: relative;
-  top: 6vh;
-  left: 30vw;
+  top: 15%;
+  right: 30%;
   transform: rotate(-20deg);
 }
 /* Seccond image style by id*/
 #img2 {
-  bottom: 20vh;
-  left: 30vw;
+  top: 30%;
+  right: 30%;
   transform: rotate(10deg);
 }
 /* Third image style by id */
 #img3 {
-  bottom: 30vh;
-  left: 30vw;
+  top: 40%;
+  right: 40%;
   transform: rotate(20deg);
 }
 /* fourth image style by id */
 #img4 {
-  bottom: 40vh;
-  left: 50%;
+  top: 50%;
+  right: 50%;
   transform: rotate(10deg);
 }
 /* Advanced style */
