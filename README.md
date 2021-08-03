@@ -2,7 +2,8 @@
 
 ![Gallery app](./img/gallery.png)
 
-Build a gallery image app using HTML and CSS to practice basic CSS.
+Build a gallery image app using HTML and CSS to practice basic CSS.\
+The CSS layout is made only for desktop and large screens layout view.
 
 # Image gallery App
 
